@@ -123,7 +123,7 @@ class FaseTestes(TestCase):
 
         fase.adicionar_porco(PorcoFake())
         self.assertEqual(DERROTA, fase.status(),
-                         'Com Porco ativo e sem pássaro para lançar, o jogo '
+                        'Com Porco ativo e sem pássaro para lançar, o jogo '
                          'deveria acabar')
 
         fase.adicionar_passaro(PassaroFake())
